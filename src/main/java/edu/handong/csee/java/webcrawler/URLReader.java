@@ -12,7 +12,7 @@ public class URLReader {
 		this.path = path;
 	}
 
-	public String getResult() throws Exception{
+	public String getOutput() throws Exception{
 
 		URL address = new URL(path);
 		BufferedReader reader = new BufferedReader(new InputStreamReader(address.openStream()));
