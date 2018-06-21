@@ -57,14 +57,14 @@ public class Main {
 	private Options createOptions() {
 		Options options = new Options();
 
-		options.addOption(Option.builder("u").longOpt("urlPath")
+		options.addOption(Option.builder("i").longOpt("urlPath")
 				.desc("Put url-address")
 				.hasArg()
 				.argName("URL Path")
 				.required()
 				.build());
 
-		options.addOption(Option.builder("d").longOpt("ouputdir")
+		options.addOption(Option.builder("o").longOpt("ouputdir")
 				.desc("Set a filename")
 				.hasArg()
 				.argName("filename")
